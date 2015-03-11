@@ -27,6 +27,7 @@ Package.onUse(function(api) {
   api.addFiles(['lib/collections/roles.js'], ['client','server']);
   api.addFiles(['server/security.js', 'server/methods.js'],'server');
   api.addFiles(['lib/collections/groups.js'],['server','client']);
+  api.addFiles(['lib/roles.js'],['client','server']);
 
   // You must load your package's package-tap.i18n before you load any
   // template
