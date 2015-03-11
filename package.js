@@ -23,7 +23,7 @@ Package.onUse(function(api) {
   api.use('alanning:roles@1.2.12');
   api.imply('alanning:roles');
 
-  api.addFiles(['lib/templates/manageRoles.js','lib/templates/addRole.js'], 'client');
+  api.addFiles(['lib/templates/manageRoles.js','lib/templates/addRole.js','lib/templates/addGroupRole.js'], 'client');
   api.addFiles(['lib/collections/roles.js'], ['client','server']);
   api.addFiles(['server/security.js', 'server/methods.js'],'server');
   api.addFiles(['lib/collections/groups.js'],['server','client']);
